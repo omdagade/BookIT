@@ -18,8 +18,8 @@
 
             <a href="#" class="logo"><img id="logo-1" src="image/logo.jpg" alt="error"></a>
             <form action="" class="search-form">
-                <input type="search" name="" placeholder="search book here...." id="search-box">
-                <label for="search-box" class="fas fa-search"></label>
+                <input type="text"  name="" placeholder="search book here...." id="myInput" >
+                <label for="search-box" class="fas fa-search" onclick="searchbook()"></label>
             </form>
             <div class="icons">
                 <div id="search-btn" class="fas fa-search"></div>
@@ -27,10 +27,10 @@
         </div>
         <div class="header-2">
             <nav class="navbar">
-                <a href="#home">HOME</a>
-                <a href="#addbook">ADD BOOK</a>
-                <a href="#deletebook">DELETE BOOK</a>
-                <a href="#deletebook">RATE US</a>
+                <a id="topbar"  href="#home">HOME</a>
+                <a id="topbar"  href="#addbook">ADD BOOK</a>
+                <a id="topbar"  href="#deletebook">DELETE BOOK</a>
+                <a id="topbar"  href="#deletebook">RATE US</a>
             </nav>
         </div>
 
@@ -42,10 +42,10 @@
 
 
     <nav class="bottom-navbar">
-        <a href="#home" class="fas fa-home"></a>
-        <a href="#addbook" class="fas fa-plus"></a>
-        <a href="#deletebook" class="fas fa-trash"></a>
-        <a href="#feedback" class="fas fa-comment"></a>
+        <a  href="#home" class="fas fa-home"></a>
+        <a  href="#addbook" class="fas fa-plus"></a>
+        <a  href="#deletebook" class="fas fa-trash"></a>
+        <a  href="#feedback" class="fas fa-comment"></a>
     </nav>
 
 
@@ -78,12 +78,57 @@
 
 
 
+    <h1 class="heading"> <span id="fb">featured books</span> </h1>
 
 
 
 
 
+    <div class="container">
+        <ul id="myUL">
+            <div class="image-container">
+                <li>
+                    <div class="image"><img id="searchimg" src="image/book-1.png" alt=""><a href=""><h3>ENGINEERING MATHEMATICS 3</h3><p id="money">200₹</p></a>
+                </li>
+            </div>
 
+            <div class="image-container">
+                <li>
+                    <div class="image"><img id="searchimg" src="image/book-2.png" alt=""><a href=""><h3>ENGINEERING MATHEMATICS 1</h3><p id="money">150₹</p></a>
+                </li>
+            </div>
+
+            <div class="image-container">
+                <li>
+                    <div class="image"><img id="searchimg" src="image/book-6.png" alt=""><a href=""><h3>ELECTRONICS ENGINEERING</h3><p id="money">100₹</p></a>
+                </li>
+            </div>
+
+            <div class="image-container">
+                <li>
+                    <div class="image"><img id="searchimg" src="image/book-3.png" alt=""><a href=""><h3>MATHEMATICS 3</h3><p id="money">250₹</p></a>
+                </li>
+            </div>
+
+            <div class="image-container">
+                <li>
+                    <div class="image"><img id="searchimg" src="image/book-4.png" alt=""><a href=""><h3>MECHANICS</h3><p id="money">50₹</p></a>
+                </li>
+            </div>
+
+        </ul>
+    </div>
+
+
+<footer class="footer">
+    <div>
+        <p>Copyright &#169 2022 Om Dagade. All Rights Reserved</p>
+    </div>
+</footer>
+
+
+
+  
 
 
 
