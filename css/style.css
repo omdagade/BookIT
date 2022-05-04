@@ -495,11 +495,21 @@ h2{
     width:0;
     height: 0;
 }
+.email2{
+    visibility: hidden;
+}
 
 @media (max-width:1198px){
     
     .ommain{
         margin: 0 2rem 1rem 2rem;
+    }
+    .email1{
+        visibility: hidden;
+        
+    }
+    .email2{
+        visibility: visible;
     }
 }
 
@@ -523,4 +533,8 @@ h2{
         width:20rem;
         height: 25rem;
     }
+    .email2{
+        visibility: visible;
+    }
 }
+
